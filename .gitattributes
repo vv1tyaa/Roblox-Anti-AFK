@@ -1,0 +1,21 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.pyd binary
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.tmp export-ignore
+*.log export-ignore
+*.pyc export-ignore
+__pycache__/ export-ignore
+*.py linguist-language=Python
+README.md linguist-detectable=true
+*.bat text eol=crlf
+*.cmd text eol=crlf
