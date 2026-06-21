@@ -31,7 +31,7 @@ _______    ______ _______    ______   ____________    ________    ________   ___
     \ |     | /       \ |     | /   |           | /             \ |   |           |     | / | |     | |     || |     | |     | 
      \|_____|/         \|_____|/    |___________|/               \|___|           |_____|/   \|_____|\|_____| \|_____|\|_____|
     """)
-    print("\n~~~~~ Modified version of LinuxC1D3's Anti-AFK")
+    print("\n~~~~~ vv1tyaa's Anti-AFK")
     print("[1] - Random intervals")
     print("[2] - Fixed interval")
     print("[3] - Credits")
@@ -79,7 +79,6 @@ def maximize_console():
 def credits():
     clear_screen()
     print("~ Created by vv1tyaa")
-    print("~ Original Anti-AFK by LinuxC1D3")
     print("")
     print("Press enter to return ...")
     input()
@@ -131,7 +130,6 @@ def main_menu():
     
     hold_choice = input(">>> ")
     
-    # Обработка ввода типа "4 0.5" (с пробелом)
     if ' ' in hold_choice:
         parts = hold_choice.split()
         if parts[0] == '4' and len(parts) > 1:
