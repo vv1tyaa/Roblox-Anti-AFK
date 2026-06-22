@@ -2,7 +2,6 @@
 
 ```bash
 pip install keyboard pygetwindow
-pip install keyboard pygetwindow
 ```
 
 ---
