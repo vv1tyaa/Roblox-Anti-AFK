@@ -63,8 +63,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 💬 Tags:
 Roblox, Python, Roblox Auto, AFK Script, Keyboard Automation, Roblox Anti Afk, AFK
-
----
-
-## 💬 Tags:
-Roblox, Python, Roblox Auto, AFK Script, Keyboard Automation, Roblox Anti Afk, AFK
