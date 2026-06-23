@@ -1,3 +1,18 @@
+# 🎮 Roblox Anti-AFK
+
+**Version: 1.0 - Release**
+
+---
+
+## 🚀 Features
+
+- ✅ Automatically detects and activates the Roblox window  
+- ✅ Simulates `W`, `A`, `S`, `D`, and `Space` keys  
+- ✅ Choose between random or fixed time intervals  
+- ✅ Option to set custom key hold duration
+
+---
+
 ## ⚙️ Installation
 
 ```bash
@@ -20,6 +35,12 @@ pip install keyboard pygetwindow
    python Anti-AFK.py
    ```
 3. Follow the on-screen instructions to select interval and key mode.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
