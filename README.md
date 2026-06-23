@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 What's New in 1.1.0
+## 🚀 What's New in 1.1
 
 - **Custom Anti-AFK Mode** — now you can create your own key press sequences!  
   Define any combination of `W`, `A`, `S`, `D`, or `Space` with custom hold durations and intervals between actions.  
