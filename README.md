@@ -1,6 +1,23 @@
 # 🎮 Roblox Anti-AFK
 
-**Version: 1.0 - Release**
+**Version: 1.1 - Release**
+
+---
+
+## 🚀 What's New in 1.1.0
+
+- **Custom Anti-AFK Mode** — now you can create your own key press sequences!  
+  Define any combination of `W`, `A`, `S`, `D`, or `Space` with custom hold durations and intervals between actions.  
+- **Back & Reset Commands** — easily navigate your custom setup with `back` (undo last action) and `reset` (clear all actions).  
+- **Enhanced Console UI** — cleaner output with better readability.  
+- **Max 32 Actions** — build long and complex AFK loops.
+
+---
+
+## 🖥️ Description
+
+This Python script automatically simulates keystrokes in Roblox to prevent the game from kicking you for inactivity (AFK).  
+It supports random and fixed intervals, and now includes a powerful **Custom Mode** for advanced automation.
 
 ---
 
@@ -41,6 +58,11 @@ pip install keyboard pygetwindow
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## 💬 Tags:
+Roblox, Python, Roblox Auto, AFK Script, Keyboard Automation, Roblox Anti Afk, AFK
 
 ---
 
