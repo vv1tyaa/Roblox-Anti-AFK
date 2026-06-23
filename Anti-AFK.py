@@ -101,6 +101,7 @@ def main_menu():
     
     while True:
         choice = input("\n>>> ")
+        print()
         
         if choice == '3':
             credits()
@@ -109,12 +110,14 @@ def main_menu():
         if choice in ['1', '2']:
             break
         
-        print("Invalid choice. Press 1, 2 or 3.")
+        print("Invalid choice. Press 1, 2 or 3.\n")
     
     interval_choice = choice
     mode_choice = input('[1] All keys\n[2] Movement keys\n[3] Jump Key\n>>> ')
+    print()
     
     interval = None if interval_choice == '1' else int(input('Enter interval in seconds: '))
+    print()
     
     keys = {
         '1': ['space', 'w', 'a', 's', 'd'],
@@ -122,13 +125,14 @@ def main_menu():
         '3': ['space']
     }.get(mode_choice, ['space'])
     
-    print("\nPress duration mode:")
+    print("Press duration mode:")
     print("[1] - Short (0.2 seconds)")
     print("[2] - Medium (1 second)")
     print("[3] - Long (3 seconds)")
     print("[4] - Custom (enter your own)")
     
     hold_choice = input(">>> ")
+    print()
     
     if ' ' in hold_choice:
         parts = hold_choice.split()
@@ -136,10 +140,10 @@ def main_menu():
             try:
                 hold_time = float(parts[1])
                 if hold_time <= 0:
-                    print("Invalid value. Using default 0.2.")
+                    print("Invalid value. Using default 0.2.\n")
                     hold_time = 0.2
             except:
-                print("Invalid input. Using default 0.2.")
+                print("Invalid input. Using default 0.2.\n")
                 hold_time = 0.2
         else:
             hold_time = 0.2
@@ -152,17 +156,18 @@ def main_menu():
     elif hold_choice == '4':
         try:
             hold_time = float(input("Enter hold duration in seconds: "))
+            print()
             if hold_time <= 0:
-                print("Invalid value. Using default 0.2.")
+                print("Invalid value. Using default 0.2.\n")
                 hold_time = 0.2
         except:
-            print("Invalid input. Using default 0.2.")
+            print("Invalid input. Using default 0.2.\n")
             hold_time = 0.2
     else:
-        print("Invalid choice. Using default 0.2.")
+        print("Invalid choice. Using default 0.2.\n")
         hold_time = 0.2
     
-    print(f"Hold duration set to {hold_time} seconds.")
+    print(f"Hold duration set to {hold_time} seconds.\n")
     
     while True:
         roblox_window = get_roblox_window()
@@ -170,7 +175,7 @@ def main_menu():
             bring_to_foreground(roblox_window)
             action(keys, hold_time)
         else:
-            print("Roblox not found. Waiting...")
+            print("Roblox not found. Waiting...\n")
         
         time.sleep(get_interval(interval))
 
